@@ -1,0 +1,67 @@
+.section-slider {
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    z-index: 10;
+    @media (max-width: 400px){
+        top: 15%;
+        width: 25px;
+    }
+}
+.right {
+    position: absolute;
+    right: 30px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    z-index: 10;
+    @media (max-width: 400px){
+        top: 15%;
+        width: 25px;
+    }
+}
+
+.slider__inner {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider__wrapper {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all;
+}
+
+.slider__item {
+    display: flex;
+    justify-content: center;
+}
+
+
+.our-salon__slider {
+    position: relative;
+    padding-top: 40px;
+}
+
+.prev,.next {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: -40px;
+}
+.prev {
+    left: -40px;
+}

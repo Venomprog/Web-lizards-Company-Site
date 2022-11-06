@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="icon" href="img/icons/favicon_32x32_created_by_logaster.png"><!-- 32×32 -->
+    <title>Веб-студия Web-lizards</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__body">
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.png" alt="Логотип Веб-студии Web-lizards">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="index.html" class="header__link">Главная</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Студия</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Работы</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="sites.html" class="header__link">Сайты</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Дизайн</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Продвижение</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section-slider container-fluid ">
+        <div class="slider__controls">
+            <img src="img/icons/left.svg" class="left"></img>
+            <img src="img/icons/right.svg" class="right"></img>
+        </div>
+        <div class="slider__inner">
+            <div class="slider__wrapper container-fluid">
+                <div class="slider__item">
+                    <div class="slider__item_content container">
+                        <div class="slider__row">
+                            <div class="slider__col">
+                                <div class="slider__title">
+                                    <h1>Создание продающих сайтов для бизнеса</h1>
+                                </div>
+                                <div class="slider__subtitle">
+                                    Создаём интерактивные веб-решения,<br> помогающие вашему бизнесу развиваться
+                                </div>
+                                <div class="slider__button">
+                                    <a class="btn slider-btn" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="slider__col slider__img">
+                                <div class="bg bg-1">
+                                    <img src="img/pictures/saly.png" alt="Девочка на экране мессенджера на сайте">
+                                </div>
+                                <div class="content">
+                                    <img src="img/pictures/saly.png" alt="Девочка на экране мессенджера на сайте">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider__item" >
+                    <div class="slider__item_content container">
+                        <div class="slider__row">
+                            <div class="slider__col">
+                                <div class="slider__title">
+                                    <h2>Продвижение сайта и услуг</h2>
+                                </div>
+                                <div class="slider__subtitle">
+                                    Увеличим конверсию, привлечём новых клиентов без рекламы и с максимальной вовлечённостью
+                                </div>
+                                <div class="slider__button">
+                                    <a class="btn slider-btn" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="slider__col slider__img">
+                                <div class="bg bg-2">
+                                    <img src="img/pictures/preview.webp" alt="Девочка на экране мессенджера на сайте">
+                                </div>
+                                <div class="content">
+                                    <img src="img/pictures/preview.webp" alt="Девочка на экране мессенджера на сайте">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="slider__item" style="background-image: url(img/first-screen.jpg);">
+                    <div class="slider__item_content container">
+                        <div class="slider__row">
+                            <div class="slider__col slider__col_2">
+                                <div class="slider__title">
+                                    <h2>Свежий дизайн для вашего бизнеса</h2>
+                                </div>
+                                <div class="slider__subtitle">
+                                    Создаём интерактивные веб-решения,<br> помогающие вашему бизнесу
+                                </div>
+                                <div class="slider__button">
+                                    <a class="btn slider-btn" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="slider__col slider__img slider__col_2 slider__col_left">
+                                <div class="bg bg-3">
+                                    <img src="img/pictures/rocket.webp" alt="Девочка на экране мессенджера на сайте">
+                                </div>
+                                <div class="content">
+                                    <img src="img/pictures/rocket.webp" alt="Девочка на экране мессенджера на сайте">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        
+    </section>
+    <section class="section__offer container-fluid">
+        <div class="offer__content container">
+            <div class="offer__row">
+                <div class="offer__col">
+                    <div class="col__picture">
+                        <img src="img/pictures/First.jpg" alt="Изображение раработки сайтов для мобильных устройств">
+                    </div>
+                    <div class="col__title">
+                        <p>Веб-сайты и приложения</p>
+                    </div>
+                    <div class="col__subtitle">
+                        <p>Мир никогда не будет прежним после<br> того как увидит ваш сайт!</p>
+                    </div>
+                    <div class="col__btn">
+                        <a class="btn offer__btn" href="#">Заказать</a>
+                    </div>
+                </div>
+                <div class="offer__col">
+                    <div class="col__picture">
+                        <img src="img/pictures/second.jpg" alt="Изображение раработки сайтов для мобильных устройств">
+                    </div>
+                    <div class="col__title">
+                        <p>Дизайны, логотипы, оформление</p>
+                    </div>
+                    <div class="col__subtitle">
+                        <p>Вы не поверите насколько вы можете<br> быть уникальны</p>
+                    </div>
+                    <div class="col__btn">
+                        <a class="btn offer__btn" href="#">Заказать</a>
+                    </div>
+                </div>
+                <div class="offer__col">
+                    <div class="col__picture">
+                        <img src="img/pictures/third.jpg" alt="Изображение раработки сайтов для мобильных устройств">
+                    </div>
+                    <div class="col__title">
+                        <p>Продвижение и веб-аналитика</p>
+                    </div>
+                    <div class="col__subtitle">
+                        <p>Новые клиенты, а также вся информация о них<br> не заставят себя ждать</p>
+                    </div>
+                    <div class="col__btn">
+                        <a class="btn offer__btn" href="#">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__benefits container-fluid">
+        <div class="benefits__content container">
+            <div class="content_row">
+                <div class="content__col slider__col slider__img">
+                    <div class="bg bg-2">
+                        <img src="img/pictures/hands.webp" alt="Тянущиеся руки из смартфонов символизирует понимание заказчика и исполнителя">
+                    </div>
+                    <div class="content">
+                        <img src="img/pictures/hands.webp" alt="Тянущиеся руки из смартфонов символизирует понимание заказчика и исполнителя">
+                    </div>
+                </div>
+                <div class="content__col">
+                    <div class="benefits__title">
+                        <h4>Мы всегда рядом для любых задач проекта и бизнеса </h4>
+                    </div>
+                    <div class="benefits__subtitle">
+                        <p>Приходите к нам, чтобы получить свой кусок пирога в Интернете. Мы внимательно изучим Ваши требования, оценим картину с конкуренцией, предложим эффективный способ завоевать рынок.</p> 
+                    </div>
+                    <div class="benefits__row">
+                        <div class="benefits__col">
+                            <div class="benefit__icon">
+                                <img src="img/icons/Огонь.png" alt="Иконка огня">
+                            </div>
+                            <div class="benefit__text">
+                                <div class="benefit__text-title">
+                                    <p>Уникальный стиль</p>
+                                </div>
+                                <div class="benefit__text-description">
+                                    <p>Отличная возможность подчеркнуть<br> индивидуальность бренда</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="benefits__col">
+                            <div class="benefit__icon">
+                                <img src="img/icons/Перо.png" alt="Иконка огня">
+                            </div>
+                            <div class="benefit__text">
+                                <div class="benefit__text-title">
+                                    <p>Адаптивность</p>
+                                </div>
+                                <div class="benefit__text-description">
+                                    <p>Ваш сайт будет прекрасно <br>функционировать<br> на любых устройствах</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits__row">
+                        <div class="benefits__col">
+                            <div class="benefit__icon">
+                                <img src="img/icons/График роста.png" alt="Иконка огня">
+                            </div>
+                            <div class="benefit__text">
+                                <div class="benefit__text-title">
+                                    <p>Возможности роста</p>
+                                </div>
+                                <div class="benefit__text-description">
+                                    <p>Всегда есть возможность<br> дополнить сайт без вреда<br> для содержимого</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="benefits__col">
+                            <div class="benefit__icon">
+                                <img src="img/icons/Спидометр.png" alt="Иконка огня">
+                            </div>
+                            <div class="benefit__text">
+                                <div class="benefit__text-title">
+                                    <p>Seo - Оптимизация</p>
+                                </div>
+                                <div class="benefit__text-description">
+                                    <p>Быстрая загрузка страниц,<br> безопасное соединение<br> и продвижение</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Раздел с недавними работами-->
+    <section class="section__last-works container-fluid">
+        <div class="last-works__content container">
+            <div class="works__title">
+                <h4>Недавние работы</h4>
+            </div>
+            <div class="works__buttons">
+                <div class="btn-dev btn-active">
+                    <button class="btn ">Разработка</button>
+                </div>
+                <div class="btn-design btn-none-active">
+                    <button class="btn">Дизайн</button>
+                </div>
+            </div>
+            <div class="works__row">
+                <div class="works__col">
+                    <div class="works__picture">
+                        <img src="img/pictures/joyride.webp" alt="Разработка дизайна сайта лендинга">
+                    </div>
+                    <div class="works__name">
+                        <p>Joyride Landing</p>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="works__picture">
+                        <img src="img/pictures/jordan.webp" alt="Разработка дизайна сайта лендинга">
+                    </div>
+                    <div class="works__name">
+                        <p>Jordan Landing</p>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="works__picture">
+                        <img src="img/pictures/morgen.webp" alt="Разработка дизайна сайта лендинга">
+                    </div>
+                    <div class="works__name">
+                        <p>Morgen Landing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__block-our-prices container-fluid">
+        <div class="block-our-prices__content container">
+            <div class="our-price__title">
+                <h3>Наши цены</h3>
+            </div>
+            <div class="our-price__subtitle">
+                <p>Разработка сайтов любой сложности</p>
+            </div>
+            <div class="our-price__row cards__items">
+                <div class="our-price__col card-item">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Сайт Визитка</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 1-3 дня - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Разработаем сайт для представления организации и контактной информации</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 4400₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="our-price__col card-item">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Landing page</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 3-5 дней - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Разработаем одностраничный сайт для продажи ваших услуг или новых инфо-продуктов</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 7900₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="our-price__col card-item">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Корпоративный</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 5-7 дней - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Разработаем сайт для вашей организации с удобной навигацией и крутым функционалом!</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 9800₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!--Раздел с ценами про дизайн-->
+            <div class="our-price__subtitle">
+                <p>Дизайн на любой вкус и цвет</p>
+            </div>
+            <div class="our-price__row cards__items">
+                <div class="our-price__col card-item test">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Landing page</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 1-3 дня - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Уникальный и свежий дизайн для продажи ваших услуг</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 2500₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="our-price__col card-item test">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Многостраничник</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 1-3 дня - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Современный и уникальный дизайн для всех страниц сайта</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 5500₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="our-price__col card-item test">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Соц. сети</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 1-3 дня - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Оформление групп и сообществ в социальных сетях!</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 550₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!--Раздел с ценами по продвижению-->
+            <div class="our-price__subtitle">
+                <p>Продвижение и привлечение клиентов</p>
+            </div>
+            <div class="our-price__row cards__items">
+                <div class="our-price__col card-item">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Аудит сайта</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 1-3 дня - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Полный анализ структуры сайта для подготовки к продвижению</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 1900₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="our-price__col card-item">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4>Seo-оптимизация</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 3-5 дней - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Проработаем структуру сайта для продвижения в поиске</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 2500₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="our-price__col card-item">
+                    <div class="card__content container">
+                        <div class="card__title">
+                            <h4 class="card-title-fix">Повышение конверсии</h4> 
+                         </div>
+                         <hr>
+                         <div class="card__description">
+                             <p>По срокам: 5-7 дней - если не успеем в сроки скидка 30%.</p>
+                         </div>
+                         <div class="card__who-needs">
+                             <p>Написание статей и создание новых страниц для привлечения клиентов</p>
+                         </div>
+                         <div class="card__price">
+                             <p>от 9800₽</p>
+                         </div>
+                         <div class="card__button">
+                             <a href="#" class="btn card__btn">Узнать что входит</a>
+                         </div>
+                         <div class="card__footer-text">
+                             <p>Я сам в шоке. что сделал такой ценник за такой крутой продукт</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Секция с формой обратной связи-->
+    <section class="form__section container-fluid">
+        <div class="container">
+            <div class="wrapper">
+                <div class="form">
+                    <form action="sendmail.php" id="form" class="form__body">
+                        <h1 class="form__title">Оставьте заявку</h1>
+                        <p class="form__text">И мы свяжемся с вами в течении 24 часов</p>
+                        <div class="form__item">
+                            <label class="form__label" for="formName">Имя*:</label>
+                            <input class="form__input _req" id="formName" type="text" name="name">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="formPhone">Телефон*:</label>
+                            <input class="form__input _req" id="formPhone" type="text" name="phone">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="formEmail">Email*:</label>
+                            <input class="form__input _req _email" id="formEmail" type="text" name="email">
+                        </div>
+                        <div class="form__item">
+                            <input class="form__check _req" id="formCheck" type="checkbox" checked value="check">
+                            <label class="form__label_check" for="formCheck">Даю согласие на обработку персональных данных</label>
+                        </div>
+                        <button class="form__button btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/header.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/last-works-btn.js"></script>
+    
+</body>
+</html>
