@@ -824,7 +824,7 @@ hr {
 .card__button .btn {
   box-shadow: 0px 2px 5px 0px black;
   max-width: 100%;
-  padding: 20px 50px;
+  padding: 20px 40px;
 }
 .card__button .btn:hover {
   box-shadow: 0px 0px 10px 5px white;
@@ -1002,6 +1002,10 @@ hr {
   font-size: 30px;
   font-weight: 900;
   opacity: 0.7;
+}
+
+.card__btn {
+  font-size: 18px;
 }
 
 .card__price-discount {
